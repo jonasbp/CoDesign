@@ -3,19 +3,24 @@
 <head>
     <title>FilmesApp</title>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles\indexcss.css">
 </head>
 <body>
     <header>
         <h1><a href="index.html">Filme App</a></h1>
     </header>
     <main>
-        <input type="text">
-        <form action="buscado.html">
-        <input type="submit" value="Buscar" />
-        </form>
+        <ul class="busca">
+            <li><input type="text"></li>
+            <li>
+                <form action="buscado.html">
+                    <input type="submit" value="Buscar" />
+                </form>
+            </li>
+        </ul>
 
         <h2>Filmes mais vistos:</h2>
-        <ul>
+        <ul class="mais_vistos">
             <li>
                 <img src="https://picsum.photos/id/1/200/300" alt="Imagem 01">
             </li>
@@ -26,7 +31,7 @@
                 <img src="https://picsum.photos/id/3/200/300" alt="Imagem 03">
             </li>
         </ul>
-        
+
         <ul>
             <li>
                 <a href="achar.html">Achar filme</a>
