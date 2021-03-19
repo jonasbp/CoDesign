@@ -3,21 +3,22 @@
 <head>
     <title>FilmesApp</title>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" href="styles\indexcss.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/CSSReset.css" />
+    <link rel="stylesheet" href="styles/indexcss.css">
 </head>
 <body>
     <header>
         <h1><a href="index.html">Filme App</a></h1>
     </header>
     <main>
-        <ul class="busca">
-            <li><input type="text"></li>
-            <li>
+        <div class="busca">
+            <input type="text">
                 <form action="buscado.html">
                     <input type="submit" value="Buscar" />
                 </form>
-            </li>
-        </ul>
+        </div>
 
         <h2>Filmes mais vistos:</h2>
         <ul class="mais_vistos">
@@ -32,7 +33,7 @@
             </li>
         </ul>
 
-        <ul>
+        <ul class="botoes">
             <li>
                 <a href="achar.html">Achar filme</a>
             </li>

@@ -1,7 +1,9 @@
 header{
     display: flex;
     justify-content: center;
-    background-color: black;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
 }
 
 main {
@@ -12,27 +14,46 @@ main {
     width: 100%;
     height: 2rem;
     margin: 0;
-
-}
-
-.busca li{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+
 }
 
 input[type=text] {
     width: 100%;
 }
 
-.mais_vistos {
+h2{
     display: flex;
     width: 100%;
+    height: 2rem;
+    margin: 1rem;
+    align-items: center;
+}
+
+.mais_vistos {
+    display: flex;
+    width: 50%;
     height: 100%;
-    overflow-x: auto;
-    justify-content: space-evenly;
     flex-direction: row;
-    margin: 0;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.botoes li{
+    padding: 1rem;  
+    border: .1rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+
 }
