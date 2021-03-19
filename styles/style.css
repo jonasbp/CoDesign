@@ -6,9 +6,15 @@ header{
     height: 2rem;
 }
 
-main {
+main,body,html {
     width: 100%;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .busca {
     display: flex;
     width: 100%;
@@ -22,21 +28,30 @@ input[type=text] {
     width: 100%;
 }
 
+
 h2{
     display: flex;
     width: 100%;
     height: 2rem;
     margin: 1rem;
+    padding-left: 1rem;
     align-items: center;
 }
 
 .mais_vistos {
     display: flex;
-    width: 50%;
+    width: 100%;
     height: 100%;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 1rem;
+    justify-content: space-evenly;
+    margin: 0;
+
+}
+.mais_vistos li {
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    width: 25rem;
 }
 
 .botoes{
@@ -44,7 +59,7 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    width: 100%;
     
 }
 .botoes li{
@@ -56,4 +71,77 @@ h2{
     width: 100%;
     height: 2rem;
 
+}
+
+.escolhidos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    padding-left: 1rem;
+}
+.escolhidos li{
+    width: 50%;
+
+}
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+}
+h3{
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    margin: 1rem;
+    padding-left: 1rem;
+    align-items: center;
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+}
+.avaliar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+}
+#centro{
+    display: flex;
+    justify-content: center;
+}
+.listas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.escolher_listas{
+    padding-left: 3rem;
+}
+.lista_filme{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.lista_filme li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.lista_lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 1rem;
 }
