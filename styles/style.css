@@ -105,6 +105,7 @@ h3{
     align-items: center;
     justify-content: center;
     padding-left: 1rem;
+    height: 10rem;
 }
 .avaliar{
     display: flex;
