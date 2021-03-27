@@ -165,3 +165,11 @@ a {
     font-family: 'Open Sans Condensed', sans-serif;
 
 }
+img{
+    width: 75%;
+    height: auto;
+}
+#emoji_capa{
+    width: 20%;
+    height: auto;
+}
