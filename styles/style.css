@@ -118,6 +118,7 @@ h3{
     height: 10rem;
 }
 .avaliar{
+    font-family: 'Open Sans Condensed', sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -142,12 +143,14 @@ h3{
     color: black;
 }
 .lista_filme{
+    font-family: 'Open Sans Condensed', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
 .lista_filme li{
+    font-family: 'Open Sans Condensed', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
